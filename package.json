@@ -40,9 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },  "devDependencies": {
-    "gh-pages": "^5.0.0"
   },
-  "homepage": "https://simharuk2021.github.io/reduxcart"
-  
+  "homepage": "https://simharuk2021.github.io/reduxcart",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
