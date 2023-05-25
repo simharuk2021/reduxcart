@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import cartReducer from './reducer';
 import App from './app';
 import 'bootstrap/dist/css/bootstrap.css';
+// import './index.css';
 
 
 var destination = document.querySelector("#container");
