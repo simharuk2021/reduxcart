@@ -1,0 +1,72 @@
+/* index.css */
+
+/* Custom styles for the cart component */
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f3f3f3; /* Updated background color */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #131921; /* Updated font color */
+  }
+  
+  .total-amount {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #131921; /* Updated font color */
+  }
+  
+  /* Styles for the table */
+  .table {
+    margin-bottom: 20px;
+  }
+  
+  .table th {
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table td {
+    padding: 10px;
+  }
+  
+  /* Styles for the remove button */
+  .btn-danger {
+    background-color: #ff9900; /* Updated background color */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-danger:hover {
+    background-color: #f08800; /* Updated background color */
+  }
+  
+  .btn-danger:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(255, 153, 0, 0.5); /* Updated box shadow */
+  }
+  
+  .add-product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-product-input {
+    margin-right: 10px;
+  }
